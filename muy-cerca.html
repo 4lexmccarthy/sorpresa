@@ -1,0 +1,39 @@
+<!--LAST MODIFIED: 11/30/2022-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Pista 3</title>
+ <link rel="shortcut icon" type="img/png" href="img/favicon.png">
+ <!--External Links-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+ <!--External Links-->
+ <link rel="stylesheet" href="css/global.css">
+ <link rel="stylesheet" href="css/page.css">
+</head>
+<body class="normal-cont">
+   <h1 class="h1">Pista 3</h1>
+   <p class="p">Este es el cuerpo de la pista numero 1. Tienes espacio para escribir instrucciones aqui.</p>
+   <div class="buttons">
+    <button id="gift" class="btn success2" type="button"><a href="https://cutt.ly/taly" target="_blank"><i class="fas fa-gift"></i>&nbsp;Abrir Detallito</a></button>
+    <button id="hint" class="btn danger1" type="button"><a><i class="fas fa-lightbulb"></i>&nbsp;Dame una Pista</a></button>
+   </div>
+<footer>
+ <p>Alex McCarthy | 2022</p>
+</footer>
+<!--Scripts Go Here-->
+<script>
+ let hint = document.getElementById('hint');
+
+ hint.addEventListener("click", () =>{
+  alert('Texto de ayuda aqui. Si aun necesitas ayuda, enviame un mensaje con el codigo: Pista 1'); // hint goes here!
+ })
+</script>
+<!--Scripts Go Here-->
+</body>
+</html>
