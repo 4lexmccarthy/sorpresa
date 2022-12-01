@@ -30,8 +30,12 @@
 <script>
  let hint = document.getElementById('hint');
 
- hint.addEventListener("click", () =>{
+ function printMessage(){
   alert('Busca un código como este en el tercer nivel del edificio I1. Si necesitas ayuda manda un mensaje con el código: PISTA 2'); // hint goes here!
+ };
+
+ hint.addEventListener("click", () =>{
+  setTimeout(printMessage, 100)
  })
 </script>
 <!--Scripts Go Here-->

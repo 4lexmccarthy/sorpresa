@@ -29,8 +29,12 @@
 <script>
  let hint = document.getElementById('hint');
 
+ function printMessage(){
+  alert('Soy un mensage.'); // hint goes here!
+ };
+
  hint.addEventListener("click", () =>{
-  alert('Texto de ayuda aqui. Si aun necesitas ayuda, enviame un mensaje con el codigo: Pista 1'); // hint goes here!
+  setTimeout(printMessage, 100)
  })
 </script>
 <!--Scripts Go Here-->

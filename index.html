@@ -28,9 +28,12 @@
 <!--Scripts Go Here-->
 <script>
  let hint = document.getElementById('hint');
-
- hint.addEventListener("click", () =>{
+ 
+ function printMessage(){
   alert('Busca un código como este en el edificio de ciencias económicas. Si necesitas ayuda manda un mensaje con el código: PISTA 1'); // hint goes here!
+ };
+ hint.addEventListener("click", () =>{
+  setTimeout(printMessage, 100)
  })
 </script>
 <!--Scripts Go Here-->
