@@ -5,7 +5,7 @@
  <meta charset="UTF-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>💌</title>
+ <title>Estamos cerca</title>
  <link rel="shortcut icon" type="img/png" href="img/favicon.png">
  <!--External Links-->
  <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,12 +16,15 @@
  <link rel="stylesheet" href="css/global.css">
  <link rel="stylesheet" href="css/page.css">
 </head>
-<body class="normal-cont" style="background: #ffafcc;">
-   <h1 class="h1">😍 Me gustas...</h1>
-   <p class="p">...mucho, muchisimo!!!! 😁😁</p>
-   <iframe style="aspect-ratio: 16 / 9; width: 100%;" width="560" height="315" src="https://www.youtube.com/embed/b58b0T0WGpo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<body class="normal-cont">
+   <h1 class="h1">👀 Estamos cerca…</h1>
+   <p class="p">Los vi y me robaron el alma en un instante. Contigo aprendí que los ojos besan primero que los labios.</p>
+   <p class="p">¿Quieres continuar? Aquí va la siguiente pista: calor, química y romance. Mis átomos aman tus átomos. </p>
+   <div class="buttons">
+    <button id="hint" class="btn danger1" type="button"><a><i class="fas fa-lightbulb"></i>&nbsp;Dame Otra Pista</a></button>
+   </div>
 <footer>
- <p>Alex Granados | 2023</p>
+ <p>Alex McCarthy | 2023</p>
 </footer>
 <!--Scripts Go Here-->
 <script>
